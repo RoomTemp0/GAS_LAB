@@ -3,3 +3,5 @@ This is just going to be relevent documents page for things
 https://www.mks.com/medias/sys_master/resources/hde/h85/10015292653598/970-DS/970-DS.pdf // this is the manual for the pressure transducer, we have the 972B Transducer 3 three relay pins that we can use to connect to the pump controller 
 
 https://www.ajvs.com/library/Varian_TV_70_LP.pdf // this is the manual for the turbo pump and what it needs to operate for the pump controller
+
+https://www.agilent.com/Library/usermanuals/Public/TV70%20PCB%2024%20Vdc%20Controller.pdf // English starting on page 163, I think this might be the pump controller in pcb form manual
