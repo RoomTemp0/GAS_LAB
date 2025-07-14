@@ -5,3 +5,8 @@ https://www.mks.com/medias/sys_master/resources/hde/h85/10015292653598/970-DS/97
 https://www.ajvs.com/library/Varian_TV_70_LP.pdf // this is the manual for the turbo pump and what it needs to operate for the pump controller
 
 https://www.agilent.com/Library/usermanuals/Public/TV70%20PCB%2024%20Vdc%20Controller.pdf // English starting on page 163, I think this might be the pump controller in pcb form manual
+
+https://www.mouser.com/ProductDetail/Inventus-Power/MI2612-760?qs=lgDiYRnMSkYP1ITEO9bESg%3D%3D&srsltid=AfmBOoo5czm4TytNkJn3LBwgNUIAaUIV1jVEDsbPDDvK0nK0JJC64Bp9 // Here is the manual for the power supply that shocked me, I also sent Mouser for a 2D model of the pcb 
+
+https://www.digikey.com/en/products/detail/phihong-usa/PSAA30R-120-R-CR1/3061653 + https://trcelectronics.com/products/phihong-rpa-ab01b-h?utm_term=&utm_campaign=Sales-Performance+Max-Catch-All+In+Stock&utm_source=adwords&utm_medium=ppc&hsa_acc=9805199880&hsa_cam=21783608284&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=21779782529&gbraid=0AAAAAD_rS1DHD8-VJyb9gxPvKzfOlO3VE&gclid=CjwKCAjw1dLDBhBoEiwAQNRiQYcN5h7-Zcl3AH88eJDmTE7keiQZmxa6wMm8uvh1-NzruZsP9SFvAhoC6UQQAvD_BwE 
+Here is the main possible replacement for the broken power adapter, for whateveer reason it requires a US plug head to work
