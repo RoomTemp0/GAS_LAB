@@ -1,0 +1,3 @@
+WHAT IS GOING ON 
+Basically, the only thing that I need to do is with the pressure transducer value connect it to the spectrometer to turn it on when the pressure reaches the specific amount for the system/RGA to be on
+I am not automating the pumps at all, for the most part, they will be on the entire time to have a stream-like system with the gas; the goal is to stay at the same pressure that the system started with throughout the experiment 
