@@ -61,9 +61,9 @@ def parse_string(raw_string):
         return None
 
 
-def control_vacuum(current_pressure):
+def control_vacuum(current_pressure): # This function is a possible control for the pump controller, it can chnage depending on the controller that we are using and the abilities that the controller would have
     
-# The code will control the vaccuum given the Torr value that is recieved from the transducer
+# The code will control the vacuum given the Torr value that is received from the transducer
 
     global previous_state
     current_state = 0
