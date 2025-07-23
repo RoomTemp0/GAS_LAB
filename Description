@@ -1,3 +1,4 @@
 WHAT IS GOING ON 
-Basically, the only thing that I need to do is with the pressure transducer value connect it to the spectrometer to turn it on when the pressure reaches the specific amount for the system/RGA to be on
-I am not automating the pumps at all, for the most part, they will be on the entire time to have a stream-like system with the gas; the goal is to stay at the same pressure that the system started with throughout the experiment 
+The system will function like a stream that we want to keep around the range of pressure of 10E-9 Torr to 10E-4 Torr. Because we need 10E-4 Torr, we need the turbo pump controller to function
+My job is to automate the turbo pump controller using data given by the pressure transducer to ensure it stays within the range throughout
+More power to the turbo pump equals less pressure in the system with more vacuum, vice versa for the opposite
