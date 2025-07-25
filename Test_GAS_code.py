@@ -102,7 +102,7 @@ SERIAL_PORT = '/dev/serial0' # Recommended for portability
 # Consult your KPDR900 manual for its default or configurable serial settings.
 BAUD_RATE = 9600
 PARITY = serial.PARITY_NONE
-STOP_BITS = serial.STOPBITS_1 # This will be completely dependent on how we set up the controller as the BaudRate and all other factors can be controlled there 
+STOP_BITS = serial.STOPBITS_ONE # This will be completely dependent on how we set up the controller as the BaudRate and all other factors can be controlled there 
 BYTE_SIZE = serial.EIGHTBITS
 TIMEOUT = 1 # Read timeout in seconds. Adjust based on how quickly KPDR900 responds.
 
@@ -254,7 +254,7 @@ if __name__ == "__main__":
                 print("No response from KPDR900 Transducer. Re-sending query...") # Added re-sending query reminder
                 ser.write(query_command.encode('ascii')) # Re-send query on timeout
                 
-            time.sleep(1) # dependent on the KPDR900 setup for how long each data will be sent to the pi
+            time.sleep(3) # dependent on the KPDR900 setup for how long each data will be sent to the pi
 
     #-------------ERRORS-------------------------------------         
     except serial.SerialException as e:
