@@ -3,13 +3,14 @@
 # This protocal will require an ethernet connection to a computer and a USB 2.0 connection to the spectrometer. 
 # The Pi can make the spectrometer do its commands using the charcter pointers for a scan, save the scan as a .csv file to the Pi, and then send it to the computer using communication protocol to send the files to the computer 
 
-from gpiozero import OutputDevice # This is another way of GPIO communication, but its a lot more user friendly to make rather than RPi
+from gpiozero import DigitalOutputDevice # This is another way of GPIO communication, but its a lot more user friendly to make rather than RPi
 import time
 import serial
 import RPi.GPIO as GPIO # This will allow communication between the GPIO pins and the ttl pins to communicate the pressure data 
 
 
 BAUD_RATE = 9600
+SERIAL_PORT = "/dev/serial0"
 PARITY = serial.PARITY_NONE
 STOP_BITS = serial.STOPBITS_1 # This will be completely dependent on how we set up the controller as the BaudRate and all other factors can be controlled there 
 BYTE_SIZE = serial.EIGHTBITS
